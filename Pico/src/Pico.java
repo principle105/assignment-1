@@ -338,7 +338,7 @@ public class Pico {
                 List<String> allFields = HotSauce.getFieldNames();
 
                 while ((line = br.readLine()) != null) {
-                    List<String> values = Arrays.asList(line.split(","));
+                    List<String> values = Arrays.asList(line.split(",", allFields.size()));
 
                     List<String> newValues = new ArrayList<String>();
 
