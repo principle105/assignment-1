@@ -36,7 +36,7 @@ public class HotSauce {
     }
 
     public static List<String> getFieldNames() {
-        return Arrays.asList("Name", "Origin", "Heat Level", "Bottle Size", "Quantity", "Year", "Tasted", "Comments");
+        return Arrays.asList("Name", "Country of Origin", "Heat Level", "Bottle Size (ml)", "Quantity in Stock", "Year Bottled", "Tasted (yes or no)", "Comments");
     }
 
     public static List<String> getRequiredFieldNames() {
